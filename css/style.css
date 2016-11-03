@@ -1,0 +1,171 @@
+/* LAYOUT */
+
+* { padding: 0; margin: 0; }
+
+body { background: #039a01 url(../images/grass.jpg) repeat fixed; color: #363535; font: normal 11px/18px verdana, arial, helvetica, sans-serif; margin-bottom: 10px; }
+
+#wrapper { background: url(../images/bg.gif) repeat-y 0% 0%; border-bottom: 1px solid #336600; margin: 0 auto; width: 650px; }
+
+#header { background: url(../images/bg_header.jpg) no-repeat 0% 0%; width: 650px; height: 133px; }
+
+#header h1 { color: #eee8aa;; font: 35px/35px georgia, times new roman, times, serif; letter-spacing: 2px; padding: 50px 0 0 130px; font-family: 'Muli', sans-serif; }
+
+#leftcolumn { display: inline; width: 180px; float: left; }
+
+#maincolumn { background: url(../images/bg_main.gif) no-repeat top right; float: right; width: 430px; padding: 10px 20px 20px 0; display: inline; position: relative; }
+
+#maincolumn p { padding-bottom: 15px; font-family: 'Handlee', cursive; font-size:20px;}
+
+#footer { color: #e5f5e5; background-color: #336600; padding: 10px 0 15px 0; height: 30px; text-align: center; }
+
+#footer a { background-image: none; padding: 0; color: #e5f5e5; text-decoration: underline; outline: none; }
+
+#footer a:hover { color: #eee8aa; text-decoration: underline; }
+
+.clear { clear: both; background: none; }
+
+/* NAVIGATION TOP */
+
+#navtop ul { padding: 0; margin: 0 4px 0 0; background: #336600 url(../images/bg_navigation.gif) no-repeat; float: right; width: 645px; }
+
+* html #navtop ul { width: 100%; }
+
+#navtop ul li { display: inline; background-image: none; padding: 3px 10px 3px 20px; color: #e5f5e5; text-decoration: none;  text-transform: uppercase; outline: none; }
+
+
+#navtop ul li a { background-image: none; padding: 3px 10px 3px 20px; color: #e5f5e5; text-decoration: none; float: right; text-transform: uppercase; outline: none; }
+
+#navtop ul li a:hover { color: #eee8aa; text-decoration: underline; }
+
+#navigation { width: 175px; }
+
+/* NAVIGATION LEFT */
+
+#navigation ul { margin-left: 4px; padding-left: 0; list-style-type: none; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase; }
+
+#navigation a { background-image: none; display: block; padding: 5px 3px 5px 7px; width: 165px; background-color: #008000; border-bottom: 1px solid #e5f5e5; outline: none; }
+
+#navigation a:link,#navigation a:active,#navigation a:visited  { color: #e5f5e5; text-decoration: none; }
+
+#navigation a:hover { background-color: #039a01; border-bottom: 1px solid #336600; color: #eee8aa; }
+
+/* SITE STYLES */
+
+#maincolumn h1 { background: url(../images/trophy.png) no-repeat 0% 5px;
+ letter-spacing: 2px; padding-left: 36px;font: 35px/35px georgia; font-family:'Muli', sans-serif; }
+
+#maincolumn h2, #maincolumn h3 { background-color: #ffffff; font: bold 16px/22px georgia, times new roman, times, serif; letter-spacing: 2px; border-top: 1px solid #363636; border-bottom: 1px solid #363636; margin-bottom: 10px; padding-left: 5px; }
+
+#maincolumn h4, #maincolumn h5, #maincolumn h6 { font: bold 11px/18px verdana, arial, helvetica, sans-serif; letter-spacing: 2px; text-transform: uppercase; }
+
+a, a:link, a:active, a:visited { background: url(../images/link.gif) no-repeat 0% 2px; color: #3cb371; font-weight: bold; outline: none; padding-left: 15px; text-decoration: underline; }
+
+a:hover { color: #ff8c00; text-decoration: none; }
+
+div.news { background: url(../images/h2_line.gif) repeat-x 0% 15px; text-align: center; }
+
+div.news p { text-align: left; font-family: 'Handlee', cursive;}
+
+div.news a, div.news a:link, div.news a:active, div.news a:visited { background: url(../images/page.gif) no-repeat 0% 0%; color: #363636; padding: 0 0 5px 21px; }
+
+div.news a:hover { color: #999; text-decoration: none; }
+
+div.news strong { color: #336600; font: normal 16px/32px georgia, times new roman, times, serif; letter-spacing: 2px; background-color: #fff; padding: 0 5px 0 5px; }
+
+div.tableleft { font-size: 10px; margin: 10px 0 10px 10px; }
+
+div.tableleft table { border: 1px solid #336600; margin-top: 5px; }
+
+div.tableleft td { padding: 0 0 0 2px; }
+
+div.tableleft .yourteam { background-color: #039A01; color: #fff; }
+
+div.tableleft .otherteam { background-color: #fff; }
+
+#leftcolumn h3 { font: bold 11px/18px verdana,arial, helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; margin: 10px 0 10px 0; }
+
+#leftcolumn h4 { background: url(../images/ball.gif) no-repeat left 6px; margin: 10px 5px 0 0; font: bold 11px/18px verdana,arial, helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; text-align: right; border-top: 1px solid #336600; padding-top: 5px; }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* === Remove input autofocus webkit === */ 
+*:focus { outline: none; } 
+/* === Form Typography === */ 
+body { font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; } 
+.contact_form h2, 
+.contact_form label { font-family: Georgia, Times, "Times New Roman", serif; } 
+.form_hint, 
+.required_notification { font-size: 11px; } 
+/* === List Styles === */ 
+.contact_form ul { width: 400px; list-style-type: none; list-style-position: outside; margin: 0px; padding: 0px; } 
+.contact_form li { padding: 12px; border-bottom: 1px solid #eee; position: relative; } 
+.contact_form li:first-child, 
+.contact_form li:last-child { border-bottom: 1px solid #777; } 
+/* === Form Header === */ 
+.contact_form h2 { margin: 0; display: inline; } 
+.required_notification { color: #d45252; margin: 5px 0 0 0; display: inline; float: right; } 
+/* === Form Elements === */ 
+.contact_form label { width: 150px; margin-top: 3px; display: inline-block; float: left; padding: 3px; } 
+.contact_form input { height: 20px; width: 220px; padding: 5px 8px; } 
+.contact_form select { height: 20px; width: 220px; padding: 5px 8px; } 
+.contact_form textarea { padding: 8px; width: 300px; } 
+.contact_form button { margin-left: 110px; } 
+/* form element visual styles */ 
+.contact_form input, 
+.contact_form select, 
+.contact_form textarea { border: 1px solid #aaa; box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset; border-radius: 2px; padding-right: 30px; -moz-transition: padding .25s; -webkit-transition: padding .25s; -o-transition: padding .25s; transition: padding .25s; } 
+.contact_form input:focus,
+.contact_form select:focus, 
+.contact_form textarea:focus { background: #fff; border: 1px solid #555; box-shadow: 0 0 3px #aaa; padding-right: 70px; } 
+/* === HTML5 validation styles === */ 
+.contact_form input:required, 
+.contact_form select:required, 
+.contact_form textarea:required { background: #fff url(images/red_asterisk.png) no-repeat 98% center; } 
+.contact_form input:required:valid, 
+.contact_form select:required:valid, 
+.contact_form textarea:required:valid { background: #fff url(images/valid.png) no-repeat 98% center; box-shadow: 0 0 5px #5cd053; border-color: #28921f; } 
+.contact_form input:focus:invalid, 
+.contact_form select:focus:invalid, 
+.contact_form textarea:focus:invalid { background: #fff url(images/invalid.png) no-repeat 98% center; box-shadow: 0 0 5px #d45252; border-color: #b03535; } 
+/* === Form hints === */ 
+.form_hint { background: #d45252; border-radius: 3px 3px 3px 3px; color: white; margin-left: 8px; padding: 1px 6px; z-index: 999; 
+/* hints stay above all other elements */ 
+position: absolute; 
+/* allows proper formatting if hint is two lines */ 
+display: none; } 
+.form_hint::before { content: "\25C0"; color: #d45252; position: absolute; top: 1px; left: -6px; } 
+.contact_form input:focus + .form_hint { display: inline; } 
+.contact_form input:required:valid + .form_hint { background: #28921f; } 
+.contact_form input:required:valid + .form_hint::before { color: #28921f; }
+.contact_form p:focus + .form_hint { display: inline; } 
+.contact_form p:required:valid + .form_hint { background: #28921f; } 
+.contact_form p:required:valid + .form_hint::before { color: #28921f; } 
+/* === Button Style === */ 
+button.submit { background-color: #68b12f; background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e)); background: -webkit-linear-gradient(top, #68b12f, #50911e); background: -moz-linear-gradient(top, #68b12f, #50911e); background: -ms-linear-gradient(top, #68b12f, #50911e); background: -o-linear-gradient(top, #68b12f, #50911e); background: linear-gradient(top, #68b12f, #50911e); border: 1px solid #509111; border-bottom: 1px solid #5b992b; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; box-shadow: inset 0 1px 0 0 #9fd574; -webkit-box-shadow: 0 1px 0 0 #9fd574 inset; -moz-box-shadow: 0 1px 0 0 #9fd574 inset; -ms-box-shadow: 0 1px 0 0 #9fd574 inset; -o-box-shadow: 0 1px 0 0 #9fd574 inset; color: white; font-weight: bold; padding: 6px 20px; text-align: center; text-shadow: 0 -1px 0 #396715; } 
+button.submit:hover { opacity: .85; cursor: pointer; } 
+button.submit:active { border: 1px solid #20911e; box-shadow: 0 0 10px 5px #356b0b inset; -webkit-box-shadow: 0 0 10px 5px #356b0b inset; -moz-box-shadow: 0 0 10px 5px #356b0b inset; -ms-box-shadow: 0 0 10px 5px #356b0b inset; -o-box-shadow: 0 0 10px 5px #356b0b inset; } 
+
+.resp_code{margin:5px 10px 10px;padding:10px 20px;font:400 1em/1.3em Tahoma,Geneva,sans-serif;color:#333;background:#f8f8f8;border:1px solid #ddd;border-radius:.25em;overflow:auto}
+.resp_code_scripts{margin:10px;padding:20px;background:#f8f8f8;border:1px solid #ddd;border-radius:.25em;overflow:scroll;height:250px}
+
+/*-----------------------------------------------------------------------------------------------------*/
+.l1{
+	font-family: 'Lobster', cursive; font-size:60px;
+}
+
+.contenido{
+	font-family: 'Handlee', cursive;
+}
+
+#contenido-cabecera img	{	margin-top: 51px; float: right;}
+#contenido-cabecera		{	width: 960px; margin: 0 auto;}
+
+.lista ul { width: 400px; list-style-type: none; list-style-position: outside; margin: 0px; padding: 0px; } 
+.lista li { padding: 12px; border-bottom: 1px solid #eee; position: relative; } 
+.lista li:first-child, 
+.lista li:last-child { border-bottom: 1px solid #777; }
+.lista button { background-color: #68b12f; background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e)); background: -webkit-linear-gradient(top, #68b12f, #50911e); background: -moz-linear-gradient(top, #68b12f, #50911e); background: -ms-linear-gradient(top, #68b12f, #50911e); background: -o-linear-gradient(top, #68b12f, #50911e); background: linear-gradient(top, #68b12f, #50911e); border: 1px solid #509111; border-bottom: 1px solid #5b992b; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; box-shadow: inset 0 1px 0 0 #9fd574; -webkit-box-shadow: 0 1px 0 0 #9fd574 inset; -moz-box-shadow: 0 1px 0 0 #9fd574 inset; -ms-box-shadow: 0 1px 0 0 #9fd574 inset; -o-box-shadow: 0 1px 0 0 #9fd574 inset; color: white; font-weight: bold; padding: 6px 20px; text-align: center; text-shadow: 0 -1px 0 #396715; } 
+.lista button:hover { opacity: .85; cursor: pointer; } 
+.lista button:active { border: 1px solid #20911e; box-shadow: 0 0 10px 5px #356b0b inset; -webkit-box-shadow: 0 0 10px 5px #356b0b inset; -moz-box-shadow: 0 0 10px
+
